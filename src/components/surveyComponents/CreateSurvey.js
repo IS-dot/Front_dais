@@ -12,8 +12,8 @@ const CreateSurvey = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    fetch('http://localhost:8080/apisurveys', {
+//'http://localhost:8080/apisurveys'
+    fetch('https://daisbackend.herokuapp.com/apisurveys', {
       method: 'POST',
       headers: {
         "Content-Type": "application/json",

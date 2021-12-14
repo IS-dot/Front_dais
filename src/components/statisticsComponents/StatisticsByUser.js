@@ -7,9 +7,10 @@ import authService from "../../services/auth.service";
 import Card from "../Card";
 
 
-const API_URL = "http://localhost:8080/apirespondents/"
-const API_SURVEYS = "http://localhost:8080/apisurveys"
-
+//const API_URL = "http://localhost:8080/apirespondents/"
+//const API_SURVEYS = "http://localhost:8080/apisurveys"
+const API_URL = "https://daisbackend.herokuapp.com/apirespondents/"
+const API_SURVEYS = "https://daisbackend.herokuapp.com/apisurveys"
 
 
 const StatisticsByUser = () => {

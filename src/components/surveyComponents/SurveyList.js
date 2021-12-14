@@ -8,7 +8,8 @@ import authService from "../../services/auth.service";
 
 
 
-const API_URL = "http://localhost:8080/apisurveys/"
+//const API_URL = "http://localhost:8080/apisurveys/"
+const API_URL = "https://daisbackend.herokuapp.com/apisurveys/"
 
 
 

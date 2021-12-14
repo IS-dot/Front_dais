@@ -12,12 +12,15 @@ import { TextField } from "@material-ui/core";
 
 
 
-const API_URL = "http://localhost:8080/apisurveys/"
-const API_RESPONDENTS = "http://localhost:8080/apirespondents"
-const API_SAVE_ALL_RADIO_ANSWERS = "http://localhost:8080/savealluseranswers"
-const API_SAVE_ALL_OPEN_ANSWERS = "http://localhost:8080/saveallouanswers"
+//const API_URL = "http://localhost:8080/apisurveys/"
+//const API_RESPONDENTS = "http://localhost:8080/apirespondents"
+//const API_SAVE_ALL_RADIO_ANSWERS = "http://localhost:8080/savealluseranswers"
+//const API_SAVE_ALL_OPEN_ANSWERS = "http://localhost:8080/saveallouanswers"
 
-
+const API_URL = "https://daisbackend.herokuapp.com/apisurveys/"
+const API_RESPONDENTS = "https://daisbackend.herokuapp.com/apirespondents"
+const API_SAVE_ALL_RADIO_ANSWERS = "https://daisbackend.herokuapp.com/savealluseranswers"
+const API_SAVE_ALL_OPEN_ANSWERS = "https://daisbackend.herokuapp.com/saveallouanswers"
 
 const useStyles = makeStyles((theme) => ({
     formControl: {
