@@ -24,7 +24,7 @@ import authService from "../../services/auth.service";
 //const API_SAVE_ALL_ANSWERS = "http://localhost:8080/saveallanswers"
 
 const API_URL = "https://daisbackend.herokuapp.com/apisurveys/"
-const API_URL_QUESTIONS = "https://daisbackend.herokuapp.com/apiquestions"
+const API_URL_QUESTIONS = "https://daisbackend.herokuapp.com/apiquestions/"
 const API_URL_ANSWER = "https://daisbackend.herokuapp.com/apianswers/"
 
 const API_SAVE_ALL_QUESTIONS = "https://daisbackend.herokuapp.com/saveallquestions"
